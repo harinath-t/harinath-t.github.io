@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Harinath T | Personal Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1120;
+            color: #e5e7eb;
+            line-height: 1.7;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            background: #111827;
+            position: sticky;
+            top: 0;
+        }
+
+        nav h2 {
+            color: #60a5fa;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 18px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        header {
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #111827, #1e3a5f);
+        }
+
+        header h1 {
+            font-size: 48px;
+            color: #60a5fa;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            margin: 8px 0;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 22px;
+            padding: 12px 24px;
+            background: #3b82f6;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        section {
+            max-width: 950px;
+            margin: 35px auto;
+            padding: 30px;
+            background: #111827;
+            border-radius: 12px;
+        }
+
+        section h2 {
+            color: #60a5fa;
+            margin-bottom: 18px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skills span {
+            background: #1e293b;
+            border: 1px solid #334155;
+            padding: 8px 15px;
+            border-radius: 6px;
+        }
+
+        .project {
+            padding: 20px;
+            margin-bottom: 18px;
+            background: #1e293b;
+            border-radius: 8px;
+        }
+
+        .project h3 {
+            color: #93c5fd;
+            margin-bottom: 8px;
+        }
+
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #60a5fa;
+        }
+
+        .contact a {
+            color: #60a5fa;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111827;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+
+            header h1 {
+                font-size: 34px;
+            }
+
+            section {
+                margin: 20px 12px;
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>Harinath.</h2>
+
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Hi, I'm Harinath T</h1>
+
+        <p>B.E. Computer Science and Engineering Student</p>
+
+        <p>
+            Exploring Technology | Learning New Skills |
+            Building Projects
+        </p>
+
+        <a href="#projects" class="button">Explore My Projects</a>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I am Harinath T, a Computer Science and Engineering student
+            at University College of Engineering, Nagercoil.
+
+            I am interested in technology, programming, and software
+            development. I enjoy learning new concepts and applying
+            my knowledge through practical projects.
+
+            My goal is to improve my technical skills and build
+            useful applications while exploring different areas
+            of the IT industry.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Java</span>
+            <span>Python</span>
+            <span>React</span>
+            <span>Spring Boot</span>
+            <span>MySQL</span>
+        </div>
+
+        <p style="margin-top: 15px; font-size: 14px; color: #9ca3af;">
+            Currently learning and improving my technical skills.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>Smart Employee Management System</h3>
+
+            <p>
+                A web-based application designed to simplify employee
+                leave management. Employees can submit leave requests,
+                and administrators can review and approve or reject them.
+            </p>
+
+            <p>
+                <strong>Technologies:</strong>
+                React, Java, Spring Boot, MySQL
+            </p>
+
+            <a href="https://github.com/YOUR-USERNAME/smart-employee-management-system"
+               target="_blank" rel="noopener noreferrer">
+                View Project on GitHub →
+            </a>
+        </div>
+
+        <div class="project">
+            <h3>To-Do Application</h3>
+
+            <p>
+                A task management application designed to help users
+                organize and manage their daily activities.
+            </p>
+
+            <a href="https://github.com/YOUR-USERNAME/To-do-application-"
+               target="_blank" rel="noopener noreferrer">
+                View Project on GitHub →
+            </a>
+        </div>
+
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+
+        <h3>B.E. Computer Science and Engineering</h3>
+
+        <p>University College of Engineering, Nagercoil</p>
+
+        <p>Expected Graduation: 2027</p>
+    </section>
+
+    <section>
+        <h2>Career Objective</h2>
+
+        <p>
+            To continuously learn, develop my technical abilities,
+            gain practical experience, and contribute to meaningful
+            technology projects while growing professionally.
+        </p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/YOUR-USERNAME"
+               target="_blank" rel="noopener noreferrer">
+                Visit My GitHub Profile
+            </a>
+        </p>
+
+        <p>
+            Email:harinatht2006@gmail.com
+        
+            <a href="mailto:YOUR-EMAIL">
+                YOUR-EMAIL
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Harinath T | Personal Portfolio</p>
+        <p>Learning Today, Building Tomorrow.</p>
+    </footer>
+
+</body>
+</html>
